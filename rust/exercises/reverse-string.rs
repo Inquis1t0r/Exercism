@@ -1,3 +1,4 @@
 pub fn reverse(input: &str) -> String {
-    todo!("Write a function to reverse {input}");
+    let char_vec: Vec<char> = input.chars().collect();
+    return char_vec.reverse();
 }
